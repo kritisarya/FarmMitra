@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    font-family: arial;
+    color: white;
+    border: border-box;
+}
+
+.navBar {
+    height: 60px;
+    background-color: #114232;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navLogo {
+    height: 50px;
+    width:100px;
+}
+
+.logo {
+    background-image: url("top_logo_final.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 1.5px solid transparent ;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/*Deliver to India Box */
+
+.address-first {
+    color: #CCCCCC;
+    font-size: 0.8rem;
+    margin-left: 18px;
+}
+
+.address-last {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: 6px;
+}
+
+.iconAddress {
+    display: flex;
+    align-items: center;
+}
+
+/*Search Box */
+.navsearch {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 30px;
+     
+    
+}
+
+.navsearch:hover {
+    border: 2px solid #FCDC2A;
+}
+
+.searchSelect {
+    background-color: #F3F3F3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border:none;
+    color:#0F1111; 
+}
+
+.searchInput {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.searchIcon {
+    width: 45px;
+    background-color: #FCDC2A;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+/* language select in nav bar*/
+
+.navLang {
+    display: flex;
+    font-size: 1rem;
+}
+
+/* .flag {
+    height: 16px;
+    width: 21px;
+    background-image: url("eng.webp");
+    background-size: cover;
+    margin-right: 3px;
+} */
+
+/* signin select in nav bar */
+ 
+.Signinfirst {
+    font-size: 0.7rem;
+}
+
+.Signinlast {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* cart in nav bar */
+
+.navCart {
+    display:flex;
+}
+
+.navCart i {
+    font-size: 1.6rem;
+}
+
+
+/* panel */
+
+.panel {
+    background-color: #87A922;
+    height: 39px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.panelAll {
+    display: flex;
+    font-size: 0.85rem; 
+    
+}
+
+a {
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin-right: 15px;
+}
+
+.panelSpace {
+    width: 500px;
+}
+
+.panelOptions {
+    display: flex;
+    justify-content: center;
+
+}
+
+.panelEnd {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* hero section */
+
+.hero {
+    height: 300px;
+    background-image: url(hero_pic.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+
+.heroMessage {
+    height: 50px;
+    width: 95%;
+    /* background-color: #f5f6f6; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px; 
+}
+
+.hero-options {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.option {
+    height: 45px;
+    width: 90px;
+    background-color: #114232;
+    color:#dddddd;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+/* shopping section*/
+
+/* First row */
+
+.boxFirstRow {
+    background-color: #ececec;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+}
+
+.boxRowOne {
+    height: 420px;
+    width: 335px;
+    background-color: #FFFFFF;
+    padding: 20px 0 15px;
+    
+}
+
+.boxForBigPic1 {
+    height: 370px;
+    width:305px;
+    background-size: cover;
+    margin-left: 14px;
+    margin-right: 14px;
+
+
+}
+
+.boxRowOne h2 {
+    color:black;
+    margin-left: 14px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* Second row */
+
+.boxSecondRow {
+    background-color: #ececec;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+}
+
+.boxRowTwo {
+    height: 420px;
+    width: 335px;
+    background-color: #FFFFFF;
+    padding: 20px 0 15px;
+}
+
+.boxForBigPic2 {
+    height: 370px;
+    width:305px;
+    background-size: cover;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.boxRowTwo h2 {
+    color:black;
+    margin-left: 14px;
+    margin-bottom: 10px;
+}
+
+/* footer */
+
+.footerPanel1 {
+    height: 50px;
+    background-color: #87A922;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerPanel2 {
+    height: 200px;
+    background-color: #114232;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.footerPanel3 {
+    height: 60px;
+    background-color: #114232;
+    border-top: 0.5px solid #CCCCCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bottomLogo {
+    height: 40px;
+    width: 200px;
+    background-image: url("bottom.jpg");
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.footerPanel4{
+    height: 50px;
+    background-color: #0F1111;
+    font-size: 0.8rem;
+    padding-top: 20px;
+}
+
+.madeBy {
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    font-size: 0.8rem;
+    color: #dddddd;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.vegetableimg {
+    height: 550px;
+    width: 600px;
+    background-image: url(veg1.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.veg-details-container {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.veg-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
